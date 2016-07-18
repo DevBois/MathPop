@@ -1,0 +1,173 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ocean_bg"
+    android:id="@+id/mainBGs"
+    tools:context="com.mccosky.mathpop.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/barFrame">
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Correct: 0 Incorrect: 0"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <github.nisrulz.stackedhorizontalprogressbar.StackedHorizontalProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            android:progressDrawable="@drawable/stacked_horizontal_progress"/>
+
+        <TextView
+            android:id="@+id/typeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="Addition"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/questionView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="10"
+            android:textColor="#ffffff"
+            android:textSize="80dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble1"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble2"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="140dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble3"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="260dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble4"
+            android:layout_marginTop="310dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble5"
+            android:layout_marginTop="310dp"
+            android:layout_marginStart="140dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble6"
+            android:layout_marginTop="310dp"
+            android:layout_marginStart="260dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble7"
+            android:layout_marginTop="410dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble8"
+            android:layout_marginTop="410dp"
+            android:layout_marginStart="140dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/bubble9"
+            android:layout_marginTop="410dp"
+            android:layout_marginStart="260dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bubble"/>
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_gravity="bottom"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:textColor="#ffcdd2"
+            android:text="00:00.00"
+            android:background="#ef5350"/>
+
+
+    </FrameLayout>
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+    </FrameLayout>-->
+
+</FrameLayout>

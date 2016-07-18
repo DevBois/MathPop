@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="stackedhorizontalprogressbar-1.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.nisrulz/stackedhorizontalprogressbar/1.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.nisrulz/stackedhorizontalprogressbar/1.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nisrulz/stackedhorizontalprogressbar/1.0.1/602e2f755dbeace74b342510d1ed2653cb5c39cf/stackedhorizontalprogressbar-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
